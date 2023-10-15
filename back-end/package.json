@@ -1,0 +1,27 @@
+{
+  "name": "web-scraper-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch src/server.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fastify/cors": "^8.4.0",
+    "axios": "^1.5.1",
+    "cheerio": "^1.0.0-rc.12",
+    "fastify": "^4.24.1",
+    "puppeteer": "^21.3.8",
+    "zod": "^3.22.4"
+  },
+  "devDependencies": {
+    "@types/node": "^20.8.6",
+    "nodemon": "^2.0.15",
+    "tsx": "^3.13.0",
+    "typescript": "^5.2.2"
+  }
+}
