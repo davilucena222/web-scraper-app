@@ -20,6 +20,7 @@
   },
   "devDependencies": {
     "@types/node": "^20.8.6",
+    "@types/puppeteer": "^7.0.4",
     "nodemon": "^2.0.15",
     "tsx": "^3.13.0",
     "typescript": "^5.2.2"

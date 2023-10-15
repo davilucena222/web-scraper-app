@@ -1,6 +1,6 @@
 import { FastifyInstance } from "fastify";
 import { z } from "zod";
-import { productDescription, productImage, productPrice, productTitle } from "../api/getInfoPage";
+import { productInfo } from "../api/getInfoPage";
 
 class Product {
   constructor(public title: string, public price: string, public image: string, public description: string) {
@@ -19,10 +19,10 @@ export async function gettingUrl(app: FastifyInstance) {
 
     const { productURL } = bodySchema.parse(req.body);
 
-    const productTitleText = await productTitle(productURL);
-    const productPriceDefault = await productPrice(productURL);
-    const productImageSource = await productImage(productURL);
-    const productDescriptionText = await productDescription(productURL);
+    const productTitleText = await productInfo.productTitle(productURL);
+    const productPriceDefault = await productInfo.productPrice(productURL);
+    const productImageSource = await productInfo.productImage(productURL);
+    const productDescriptionText = await productInfo.productDescription(productURL);
 
     if (productTitleText !== null && productPriceDefault !== null && productImageSource !== null && productDescriptionText !== null) {
       const productInfo = new Product(
