@@ -18,6 +18,7 @@ export async function gettingUrl(app: FastifyInstance) {
     });
 
     const { productURL } = bodySchema.parse(req.body);
+    console.log("LINK DO PRODUTO: ", productURL);
 
     const productTitleText = await productInfo.productTitle(productURL);
     const productPriceDefault = await productInfo.productPrice(productURL);
@@ -32,13 +33,13 @@ export async function gettingUrl(app: FastifyInstance) {
         productDescriptionText
       );
 
+      console.log(productInfo);
+
       return {
         productInfo
       };
     } else {
-      return {
-        erro: "Campo não encontrado, forneça outro link!"
-      }
+      return reply.status(400).send({ error: "Campo não encontrado, por favor, forneça outro link!" });
     }
   })
 }
