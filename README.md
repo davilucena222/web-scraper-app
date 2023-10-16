@@ -104,7 +104,7 @@ $ http://localhost:3000/gettingUrl
   Abaixo segue um vídeo demonstrando como pode ser feito o teste da aplicação, além disso, também é possível ver os resultados obtidos após os testes.
 </p>
 
-https://github.com/davilucena222/web-scraper-app/assets/56702492/3e8287f9-dcee-4c71-b9ad-d706722a12d6
+https://github.com/davilucena222/web-scraper-app/assets/56702492/09e9a8be-22c2-4fbb-bac9-20f7b0c85273
 
 # Prints e outputs de outros testes
 ![image](https://github.com/davilucena222/web-scraper-app/assets/56702492/6c377213-4062-46d6-902f-dde11c4ed571)
