@@ -64,3 +64,5 @@ $ http://localhost:5173
   Abaixo segue um vídeo demonstrando como pode ser feito o teste da aplicação, além disso, também é possível ver os resultados obtidos após os testes.
 </p>
 
+https://github.com/davilucena222/web-scraper-app/assets/56702492/a90a4340-017a-4306-a3fe-8d6025ab6197
+
