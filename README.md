@@ -105,17 +105,3 @@ http://localhost:3000/gettingUrl
 <p>
   Após a conclusão da requisição, um JSON será retornado como resposta com os dados do produto.
 </p>
-
-# Resultados obtidos após os testes
-
-<p>
-  Abaixo segue um vídeo demonstrando como pode ser feito o teste da aplicação:
-</p>
-
-https://github.com/davilucena222/web-scraper-app/assets/56702492/09e9a8be-22c2-4fbb-bac9-20f7b0c85273
-
-# Prints e outputs de outros testes
-![image](https://github.com/davilucena222/web-scraper-app/assets/56702492/6c377213-4062-46d6-902f-dde11c4ed571)
-
-![image](https://github.com/davilucena222/web-scraper-app/assets/56702492/2b698290-bc3c-4968-a07e-18abce9f91a7)
-
