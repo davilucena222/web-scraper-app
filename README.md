@@ -8,18 +8,18 @@ Web scraping feito em Node para extrair informações de produtos da Netshoes co
   Clone o projeto e então acesse a pasta web-scrapper-app. Garanta que você tenha o git instalado em sua máquina e também a versão mais recente do Node.js:
 </p>
 
+#### Tente clonar primeiro com esse comando
 ```bash
-# Tente clonar primeiro com esse comando
 $ git clone git@github.com:davilucena222/web-scraper-app.git
 ```
 
+#### Se não funcionar tentar com esse
 ```bash
-# Se não funcionar tentar com esse
 $ git clone git@github.com:davilucena222/web-scraper-app.git
 ```
 
+#### Em seguida acesse a pasta do projeto
 ```bash
-# Em seguida acesse a pasta do projeto
 $ cd web-scrapper-app 
 ```
 
@@ -29,18 +29,18 @@ $ cd web-scrapper-app
   Após clonar o projeto, instale as dependências com os comando abaixo e então acesse o localhost em seu navegador:
 </p>
 
+#### Instalando as dependências
 ```bash
-# Instalando as dependências
 $ npm install
 ```
 
+#### Utilize o comando abaixo para inicializar a aplicação
 ```bash
-# Utilize o comando abaixo para inicializar a aplicação
 $ npm run dev
 ```
 
+#### Acesse a aplicação no seu navegador através do endereço 
 ```bash
-# Acesse a aplicação no seu navegador através do endereço 
 $ http://localhost:5173
 ```
 
