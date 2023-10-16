@@ -1,10 +1,10 @@
-import { ReactNode, createContext, useContext, useState } from "react";
+import { ReactNode, createContext, useContext, useEffect, useState } from "react";
 import { api } from "../utils/axios";
 
 interface GlobalProductContextType {
   getDataFromProductUrl: (productUrl: string) => Promise<void>;
   productData: ProductData;
-  error: string | null; 
+  error: string | null;
 }
 
 const initialContextValue: GlobalProductContextType = {
@@ -28,30 +28,44 @@ interface ProductData {
 
 export const GLobalProductContextProvider = ({ children }: GlobalProductContextProviderProps) => {
   const [productData, setProductData] = useState({} as ProductData);
-  const [error, setError] = useState<string | null>(null); 
+  const [error, setError] = useState<string | null>(null);
+
+  useEffect(() => {
+    const storedProductData = localStorage.getItem('productData');
+    if (storedProductData) {
+      const parsedProductData = JSON.parse(storedProductData);
+      setProductData(parsedProductData);
+    }
+  }, []);
 
   async function getDataFromProductUrl(productUrl: string) {
-    if (productUrl === "") {
-      setError("Por favor, insira o link de um produto da Netshoes no input!");
-      return;
-    }
-
     try {
       const response = await api.post("/gettingUrl", {
-        productURL: productUrl, 
+        productURL: productUrl,
       });
 
-      setProductData(
-        {
-          title: response.data.title,
-          price: response.data.price,
-          image: response.data.image,
-          description: response.data.description,
-        }
-      );
-      setError(null); 
+      if (response.data.productInfo.title === "" || response.data.productInfo.price === "" || response.data.productInfo.image === "" || response.data.productInfo.description === "") {
+        alert("Você forneceu o link de um produto da Netshoes errado, por favor, forneça um link válido");
+
+        window.location.href = "/";
+
+        return;
+      }
+
+      const product = {
+        title: JSON.stringify(response.data.productInfo.title),
+        price: JSON.stringify(response.data.productInfo.price),
+        image: JSON.stringify(response.data.productInfo.image),
+        description: JSON.stringify(response.data.productInfo.description),
+      }
+      
+      localStorage.setItem('productData', JSON.stringify(product));
+
+      setProductData(product);
+      
+      setError(null);
     } catch (error) {
-      setError("Erro ao enviar o link do produto!"); 
+      setError("Erro ao enviar o link do produto!");
     }
   }
 

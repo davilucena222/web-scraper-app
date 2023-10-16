@@ -11,7 +11,7 @@ class ProductScraper {
 
     const response = await page.evaluate((selector) => {
       const tagHtmlElement = document.querySelector(selector);
-      return tagHtmlElement ? tagHtmlElement.textContent : '';
+      return tagHtmlElement ? tagHtmlElement.textContent : "";
     }, selector);
 
     await browser.close();

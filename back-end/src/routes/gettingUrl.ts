@@ -18,7 +18,6 @@ export async function gettingUrl(app: FastifyInstance) {
     });
 
     const { productURL } = bodySchema.parse(req.body);
-    console.log("LINK DO PRODUTO: ", productURL);
 
     const productTitleText = await productInfo.productTitle(productURL);
     const productPriceDefault = await productInfo.productPrice(productURL);
