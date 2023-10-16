@@ -58,6 +58,46 @@ $ http://localhost:5173
   </li>
 </ul>
 
+# Testando apenas a API (back-end node)
+
+<p>
+  Caso queira testar apenas a API da aplicação, pode-se utilizar alguma plataforma de Rest API Client enviando requisições e obtendo respostas. Abaixo seguem algumas sugestões:
+</p>
+
+<ul>
+  <li>
+    <a href="https://insomnia.rest/">Insomnia</a>
+  </li>
+  <li>
+    <a href="https://apidog.com/?utm_source=google_search&utm_medium=g&utm_campaign=18544428894&utm_content=153517438552&utm_term=api%20dog&gad=1&gclid=CjwKCAjwvrOpBhBdEiwAR58-3B4Njm82J2rPWRz-Jswro4KTjIs-8rtYCYf9gowX-aHS__UUIszfshoCKNsQAvD_BwE">Apidog</a>
+  </li>
+  <li>
+     <a href="https://www.postman.com/">Postman</a>
+  </li>
+</ul>
+
+<p>
+  Para testar basta apenas acessar o localhost da api back-end: 
+</p>
+
+
+```bash
+$ http://localhost:3000/gettingUrl
+```
+
+<p>
+  Em seguida colar no campo de endereço do Rest API Client que está sendo utilizado e como corpo da requisição pode-se enviar o link da página de algum produto da Netshoes. Neste README possui alguns links que podem ser utilizados como exemplos.
+</p>
+
+```bash
+{
+  "productURL": "https://www.netshoes.com.br/tenis-infantil-adidas-tensaur-sport-training-lace-preto+branco-FB8-4355-026" 
+}
+```
+<p>
+  Após a conclusão da requisição um JSON será retornado como resposta com os dados do produto.
+</p>
+
 # Resultados obtidos após os testes
 
 <p>
