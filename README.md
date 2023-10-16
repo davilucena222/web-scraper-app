@@ -11,10 +11,14 @@ Web scraping feito em Node para extrair informações de produtos da Netshoes co
 ```bash
 # Tente clonar primeiro com esse comando
 $ git clone git@github.com:davilucena222/web-scraper-app.git
+```
 
+```bash
 # Se não funcionar tentar com esse
 $ git clone git@github.com:davilucena222/web-scraper-app.git
+```
 
+```bash
 # Em seguida acesse a pasta do projeto
 $ cd web-scrapper-app 
 ```
@@ -28,10 +32,14 @@ $ cd web-scrapper-app
 ```bash
 # Instalando as dependências
 $ npm install
+```
 
+```bash
 # Utilize o comando abaixo para inicializar a aplicação
 $ npm run dev
+```
 
+```bash
 # Acesse a aplicação no seu navegador através do endereço 
 $ http://localhost:5173
 ```
