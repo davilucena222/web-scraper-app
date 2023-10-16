@@ -20,7 +20,7 @@ git clone git@github.com:davilucena222/web-scraper-app.git
 
 #### Em seguida acesse a pasta do projeto
 ```bash
-cd web-scrapper-app 
+cd web-scraper-app 
 ```
 
 # Instalando dependências
