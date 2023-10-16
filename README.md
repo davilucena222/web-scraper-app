@@ -64,9 +64,10 @@ $ http://localhost:5173
   Abaixo segue um vídeo demonstrando como pode ser feito o teste da aplicação, além disso, também é possível ver os resultados obtidos após os testes.
 </p>
 
-https://github.com/davilucena222/web-scraper-app/assets/56702492/a90a4340-017a-4306-a3fe-8d6025ab6197
+https://github.com/davilucena222/web-scraper-app/assets/56702492/3e8287f9-dcee-4c71-b9ad-d706722a12d6
 
 # Prints e outputs de outros testes
-![Alt text](image.png)
+![image](https://github.com/davilucena222/web-scraper-app/assets/56702492/6c377213-4062-46d6-902f-dde11c4ed571)
 
-![Alt text](image-1.png)
+![image](https://github.com/davilucena222/web-scraper-app/assets/56702492/2b698290-bc3c-4968-a07e-18abce9f91a7)
+
