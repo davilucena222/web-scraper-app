@@ -13,5 +13,5 @@ app.register(gettingUrl);
 app.listen({
   port: 3000,
 }).then(() => {
-  console.log("Servidor rodando no localhost:3000!");
+  ("Servidor rodando no localhost:3000!");
 });

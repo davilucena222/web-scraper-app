@@ -32,8 +32,6 @@ export async function gettingUrl(app: FastifyInstance) {
         productDescriptionText
       );
 
-      console.log(productInfo);
-
       return {
         productInfo
       };
