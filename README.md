@@ -1,6 +1,6 @@
 # Web-scrapper-app
 
-Web scraping feito em Node para extrair informações de produtos da Netshoes, além disso, uma interface foi integrada para que o usuário forneça o link do produto para o qual ele deseja obter informações
+Web scraping feito em Node para extrair informações de produtos da Netshoes com uma interface integrada para que o usuário forneça o link do produto para o qual ele deseja obter informações
 
 # Clonando o projeto para sua máquina
 
@@ -12,7 +12,7 @@ Web scraping feito em Node para extrair informações de produtos da Netshoes, a
 # Tente clonar primeiro com esse comando
 $ git clone git@github.com:davilucena222/web-scraper-app.git
 
-# Se não funcionar pode tentar com esse
+# Se não funcionar tentar com esse
 $ git clone git@github.com:davilucena222/web-scraper-app.git
 
 # Em seguida acesse a pasta do projeto
@@ -22,7 +22,7 @@ $ cd web-scrapper-app
 # Instalando dependências
 
 <p>
-  Após clonar o projeto, instale as dependências com os comando abaixo
+  Após clonar o projeto, instale as dependências com os comando abaixo e então acesse o localhost em seu navegador
 </p>
 
 ```bash
@@ -43,7 +43,7 @@ $ http://localhost:5173
 
   Caso um link inválido seja fornecido, uma mensagem de erro será exibida na tela.
 
-  Utilize um link de produto da Netshoes como os que estão abaixo para testar a aplicação, você pode ir até a página de um produto da Netshoes e pegar outros links, mas que sejam neste formato.
+  Utilize um link da página de produtos da Netshoes como os links de exemplo que estão abaixo para testar a aplicação, você pode ir até a página de um produto da Netshoes e pegar outros links, mas que sejam neste formato.
 </p> 
 
 <ul>
@@ -86,7 +86,7 @@ $ http://localhost:3000/gettingUrl
 ```
 
 <p>
-  Em seguida colar no campo de endereço do Rest API Client que está sendo utilizado e como corpo da requisição pode-se enviar o link da página de algum produto da Netshoes. Neste README possui alguns links que podem ser utilizados como exemplos.
+  Em seguida cole no campo de endereço do Rest API Client que está sendo utilizado e como corpo da requisição envie o link da página de algum produto da Netshoes. Neste README possui alguns links que podem ser utilizados como exemplo.
 </p>
 
 ```bash
@@ -101,7 +101,7 @@ $ http://localhost:3000/gettingUrl
 # Resultados obtidos após os testes
 
 <p>
-  Abaixo segue um vídeo demonstrando como pode ser feito o teste da aplicação, além disso, também é possível ver os resultados obtidos após os testes.
+  Abaixo segue um vídeo demonstrando como pode ser feito o teste da aplicação:
 </p>
 
 https://github.com/davilucena222/web-scraper-app/assets/56702492/09e9a8be-22c2-4fbb-bac9-20f7b0c85273
