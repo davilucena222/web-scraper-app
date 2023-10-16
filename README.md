@@ -10,17 +10,17 @@ Web scraping feito em Node para extrair informações de produtos da Netshoes co
 
 #### Tente clonar primeiro com esse comando
 ```bash
-$ git clone git@github.com:davilucena222/web-scraper-app.git
+git clone git@github.com:davilucena222/web-scraper-app.git
 ```
 
 #### Se não funcionar tentar com esse
 ```bash
-$ git clone git@github.com:davilucena222/web-scraper-app.git
+git clone git@github.com:davilucena222/web-scraper-app.git
 ```
 
 #### Em seguida acesse a pasta do projeto
 ```bash
-$ cd web-scrapper-app 
+cd web-scrapper-app 
 ```
 
 # Instalando dependências
@@ -31,17 +31,17 @@ $ cd web-scrapper-app
 
 #### Instalando as dependências
 ```bash
-$ npm install
+npm install
 ```
 
 #### Utilize o comando abaixo para inicializar a aplicação
 ```bash
-$ npm run dev
+npm run dev
 ```
 
 #### Acesse a aplicação no seu navegador através do endereço 
 ```bash
-$ http://localhost:5173
+http://localhost:5173
 ```
 
 # Testando a aplicação
@@ -90,7 +90,7 @@ $ http://localhost:5173
 
 
 ```bash
-$ http://localhost:3000/gettingUrl
+http://localhost:3000/gettingUrl
 ```
 
 <p>
