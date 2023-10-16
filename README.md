@@ -1,11 +1,11 @@
 # Web-scrapper-app
 
-Web scraping feito em Node para extrair informações de produtos da Netshoes com uma interface integrada para que o usuário forneça o link do produto para o qual ele deseja obter informações
+Web scraping feito em Node para extrair informações de produtos da Netshoes com uma interface integrada para que o usuário forneça o link do produto para o qual ele deseja obter informações.
 
 # Clonando o projeto para sua máquina
 
 <p>
-  Clone o projeto e então acesse a pasta web-scrapper-app. Garanta que você tenha o git instalado em sua máquina e também a versão mais recente do Node.js
+  Clone o projeto e então acesse a pasta web-scrapper-app. Garanta que você tenha o git instalado em sua máquina e também a versão mais recente do Node.js:
 </p>
 
 ```bash
@@ -22,7 +22,7 @@ $ cd web-scrapper-app
 # Instalando dependências
 
 <p>
-  Após clonar o projeto, instale as dependências com os comando abaixo e então acesse o localhost em seu navegador
+  Após clonar o projeto, instale as dependências com os comando abaixo e então acesse o localhost em seu navegador:
 </p>
 
 ```bash
@@ -95,7 +95,7 @@ $ http://localhost:3000/gettingUrl
 }
 ```
 <p>
-  Após a conclusão da requisição um JSON será retornado como resposta com os dados do produto.
+  Após a conclusão da requisição, um JSON será retornado como resposta com os dados do produto.
 </p>
 
 # Resultados obtidos após os testes
