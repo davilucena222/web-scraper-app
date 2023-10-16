@@ -66,3 +66,7 @@ $ http://localhost:5173
 
 https://github.com/davilucena222/web-scraper-app/assets/56702492/a90a4340-017a-4306-a3fe-8d6025ab6197
 
+# Prints e outputs de outros testes
+![Alt text](image.png)
+
+![Alt text](image-1.png)
