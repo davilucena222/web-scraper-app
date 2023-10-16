@@ -15,7 +15,7 @@ export const Container = styled.main`
 export const PageTitle = styled.h1`
   font-size: 2rem;
   margin-top: 2rem;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
 `;
 
 export const Section = styled.section`
@@ -25,12 +25,12 @@ export const Section = styled.section`
 
 export const ProductTitle = styled.p`
   font-size: 1.2rem;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
 `;
 
 export const ProductPrice = styled.p`
   margin-top: 1rem;
-  margin-bottom: 1rem;
+  margin-bottom: 3rem;
 `;
 
 export const PriceNumber = styled.p`
